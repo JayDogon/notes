@@ -1,0 +1,35 @@
+\section{Notation and introductory concepts}
+
+\subsection{$a|b$}
+
+We will denote by $a|b$, where $a$ and $b$ are understood to be positive integers, that $a$ divides $b$. That is, 
+there exists some integer $m$ such that $am = b$. \\ \\
+
+\subsection{Big O}
+
+\noi
+Suppose $\phi$ is some real valued function on a particular domain. Then by $O(\phi)$ we denote the class of complex valued 
+functions $f$ such that there exists a constant $A$ with
+
+\begin{equation*}
+    |f| < A\phi
+\end{equation*}
+
+\noi
+over the entirety of the domain.
+
+\subsection{Little o, $\prec$}
+Suppose $\phi$ is as before. Then by $o(\phi)$ we denote the class of functions $f$ with
+
+\begin{equation*}
+    f/\phi \to 0
+\end{equation*}
+\noi
+By $f \prec \phi$ we mean that $f \in o(\phi)$
+
+\subsection{$\sim$}
+By $f \sim \phi$ we mean that
+
+\begin{equation*}
+    f/\phi \to 1
+\end{equation*}
