@@ -1,5 +1,11 @@
 \contentsline {section}{\numberline {1}Notation and Introductory Concepts}{3}{}%
 \contentsline {subsection}{\numberline {1.1}$a|b$}{3}{}%
-\contentsline {subsection}{\numberline {1.2}Big O}{3}{}%
-\contentsline {subsection}{\numberline {1.3}Little o, $\prec $}{3}{}%
-\contentsline {subsection}{\numberline {1.4}$\sim $}{3}{}%
+\contentsline {subsection}{\numberline {1.2}GCD}{3}{}%
+\contentsline {subsection}{\numberline {1.3}Coprime}{3}{}%
+\contentsline {subsection}{\numberline {1.4}Big O}{3}{}%
+\contentsline {subsection}{\numberline {1.5}Little o, $\prec $}{3}{}%
+\contentsline {subsection}{\numberline {1.6}$\sim $}{4}{}%
+\contentsline {section}{\numberline {2}Primes}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Preliminary Results}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Euclid's Theorem}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Exercises}{7}{}%

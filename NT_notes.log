@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.27)  27 NOV 2022 19:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.27)  27 NOV 2022 23:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -95,22 +95,33 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+)) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks26
+) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip52
-\f@nch@O@elh=\skip53
-\f@nch@O@erh=\skip54
-\f@nch@O@olh=\skip55
-\f@nch@O@orh=\skip56
-\f@nch@O@elf=\skip57
-\f@nch@O@erf=\skip58
-\f@nch@O@olf=\skip59
-\f@nch@O@orf=\skip60
+\f@nch@headwidth=\skip55
+\f@nch@O@elh=\skip56
+\f@nch@O@erh=\skip57
+\f@nch@O@olh=\skip58
+\f@nch@O@orh=\skip59
+\f@nch@O@elf=\skip60
+\f@nch@O@erf=\skip61
+\f@nch@O@olf=\skip62
+\f@nch@O@orf=\skip63
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box53
 \UL@hyphenbox=\box54
-\UL@skip=\skip61
-\UL@hook=\toks21
+\UL@skip=\skip64
+\UL@hook=\toks27
 \UL@height=\dimen148
 \UL@pe=\count271
 \UL@pixel=\dimen149
@@ -118,7 +129,7 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 Package: ulem 2019/11/18
 \ULdepth=\dimen150
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks22
+\pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen151
 \pgfutil@tempdimb=\dimen152
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
@@ -131,7 +142,7 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks29
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -150,10 +161,10 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks32
 ))
 \pgf@x=\dimen157
 \pgf@y=\dimen158
@@ -171,9 +182,9 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \c@pgf@countb=\count273
 \c@pgf@countc=\count274
 \c@pgf@countd=\count275
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
 \pgf@sys@id@count=\count276
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -211,9 +222,9 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmath@dimen=\dimen167
 \pgfmath@count=\count279
 \pgfmath@box=\box57
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count280
 )) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -297,8 +308,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
 \pgffor@iter=\dimen194
 \pgffor@skip=\dimen195
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
 )) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
@@ -373,7 +384,7 @@ File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarymath.code.tex (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfpu.code.tex)
 \tikz@math@for@depth=\count295
 \tikz@math@dimen=\dimen273
-\tikz@math@toks=\toks35
+\tikz@math@toks=\toks41
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
@@ -485,9 +496,9 @@ Local configuration file tkz-euclide.cfg found and used
 )) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks36
-\t@pgfplots@tokb=\toks37
-\t@pgfplots@tokc=\toks38
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
 \pgfplots@tmpa=\dimen285
 \c@pgfplots@coordindex=\count299
 \c@pgfplots@scanlineindex=\count300
@@ -495,7 +506,7 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \c@pgfplotsarray@tmp=\count301
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count302
-\t@pgfplotstable@a=\toks39
+\t@pgfplotstable@a=\toks45
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count303
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
@@ -515,13 +526,13 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count305
 \c@ALG@rem=\count306
 \c@ALG@nested=\count307
-\ALG@tlm=\skip62
-\ALG@thistlm=\skip63
+\ALG@tlm=\skip65
+\ALG@thistlm=\skip66
 \c@ALG@Lnr=\count308
 \c@ALG@blocknr=\count309
 \c@ALG@storecount=\count310
 \c@ALG@tmpcounter=\count311
-\ALG@tmplength=\skip64
+\ALG@tmplength=\skip67
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
 
@@ -538,36 +549,39 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 
 
 Writing index file NT_notes.idx
-(NT_notes.aux (Chapter 1.aux))
+\c@theorem=\count312
+\c@corollary=\count313
+\c@lemma=\count314
+(NT_notes.aux (Chapter 1.aux) (Primes.aux))
 \openout1 = `NT_notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
+\scratchcounter=\count315
 \scratchdimen=\dimen292
 \scratchbox=\box73
-\nofMPsegments=\count313
-\nofMParguments=\count314
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count315
+\nofMPsegments=\count316
+\nofMParguments=\count317
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count318
 \MPscratchDim=\dimen293
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
-\everyMPtoPDFconversion=\toks41
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
+\everyMPtoPDFconversion=\toks47
 ) (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -576,11 +590,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
  (C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (NT_notes.toc)
@@ -592,31 +606,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/Nicholas Giannoulis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 \openout2 = `"Chapter 1.aux"'.
 
- (Chapter 1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+ (Chapter 1.tex [3
 
+]) [4]
+\openout2 = `Primes.aux'.
+
+ (Primes.tex
+Overfull \hbox (9.52391pt too wide) in paragraph at lines 43--44
+[]\OT1/cmr/m/n/12 Assume there are only finitely many primes $\OML/cmm/m/it/12 p[]; :::; p[]$\OT1/cmr/m/n/12 . Let $\OML/cmm/m/it/12 q \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 p[]p[]:::p[] \OT1/cmr/m/n/12 +
  []
 
+[5
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
- []
 
-) [3
-
-] (NT_notes.aux (Chapter 1.aux)) ) 
+] [6] [7]) [8] (NT_notes.aux (Chapter 1.aux) (Primes.aux)) ) 
 Here is how much of TeX's memory you used:
- 28571 strings out of 475385
- 748409 string characters out of 2770262
- 1204291 words of memory out of 3000000
- 49385 multiletter control sequences out of 15000+600000
- 478128 words of font info for 63 fonts, out of 8000000 for 9000
+ 28708 strings out of 475385
+ 750807 string characters out of 2770262
+ 1212504 words of memory out of 3000000
+ 49510 multiletter control sequences out of 15000+600000
+ 478475 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,11n,104p,1221b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on NT_notes.pdf (3 pages, 67329 bytes).
+ 100i,12n,104p,1221b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on NT_notes.pdf (8 pages, 147903 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

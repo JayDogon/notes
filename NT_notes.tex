@@ -5,6 +5,7 @@
 \date{}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{amsthm}
 \usepackage{fancyhdr}
 \usepackage{ulem}
 \usepackage{tikz}
@@ -20,6 +21,11 @@
 \pagestyle{fancy}
 \fancyhf{}
 \makeindex
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem*{remark}{Remark}
 
 \begin{document}
 
@@ -37,6 +43,7 @@ that it will be useful as a reference for others also.
 \newpage
 \include{Chapter 1.tex}
 
-
+\newpage
+\include{Primes.tex}
 
 \end{document}

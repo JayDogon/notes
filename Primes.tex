@@ -1,0 +1,142 @@
+\section{Primes}
+
+\subsection{Preliminary Results}
+
+\begin{theorem}[Bezout's Identity]\label{Bezout}
+    If $(a,b) = 1$ if and only if there exist integers $x$ and $y$ such that $ax + by = 1$
+\end{theorem}
+
+\begin{proof}
+Prove that $(a, b) = (a-b, b)$. From this the forward direction follows by induction. To see the other direction, observe that any common divisor of $a$ and $b$ 
+must also divide $ax + by = 1$.
+\end{proof}
+
+\begin{lemma}[Euclid's Lemma]
+Let $p$ be a prime diving $ab$. Then $p|a$ or $p|b$.
+\end{lemma}
+\begin{proof}
+    Write $pd = ab$. Suppose $p$ does not divide $a$. Then $(a,p) = 1$. By Theorem \ref{Bezout} for some integers $x$ and $y$;
+
+    \begin{align*}
+        ax + py &= 1 \\
+        abx + bpy &= b \\
+        p(dx + by) &= b
+    \end{align*}
+\end{proof}
+
+\begin{theorem}[The Fundamental Theorem of Arithmetic]
+    \label{FTA}
+    Every positive integer greater than 1 has a unique (up to permutation) decomposition into a product of primes.
+\end{theorem}
+
+\begin{proof}
+    Exercise 1
+\end{proof}
+
+\subsection{Euclid's Theorem}
+
+\begin{theorem}[Euclid's Theorem]
+    There are infinitely many prime numbers
+\end{theorem}
+The classical proof is by contradiction.
+\begin{proof}
+    Assume there are only finitely many primes $p_1,...,p_n$. Let $q = p_1 p_2 ... p_n + 1$. Then
+
+    \begin{align*}
+        q - p_1...p_n = 1
+    \end{align*}
+    \noi
+    By the converse of Bezout's identity $q$ and $p_1,...,p_n$ are coprime. But then none of the primes $p_1$ through $p_n$ can divide $q$. We conclude that 
+    none of the prime divisors of $q$ are amongst this list of primes.
+\end{proof}
+
+\begin{remark}
+    If one takes $q_n = p_1 ... p_n+1$ where the $p_i$ are the first $n$ primes, then Euclid's proof allows for the following recursive bound on the $n+1$th prime number. 
+    For $n>1$ it is clear that
+
+    \begin{equation*}
+        q_n < p_n^n + 1
+    \end{equation*}
+    At least one of the primes larger than $p_n$ must divide $q$, and can therefore be at most as large as $q$. Hence
+
+    \begin{equation*}
+        p_{n+1} < p_n^n + 1
+    \end{equation*}
+
+\end{remark}
+
+\noi
+One can turn Euclid's argument on certain subsets of the primes.
+
+\begin{theorem}
+    There are infinitely many primes of the form $4n+3$
+\end{theorem}
+
+\begin{proof}
+    Let $q$ be the product of 4 and all of the odd primes up to $p$, the largest prime of the form $4n+3$, minus one
+
+    \begin{align*}
+        q = 4\cdot 3 \cdot 5 \cdot ... \cdot p - 1
+    \end{align*}
+    Then $q$ is of the form $4n+3$. $q$ must contain at least one prime factor of the form $4n+3$ because a product of numbers of the form $4n+1$ 
+    is of the same kind (in fact it must contain an odd number of such factors counting multiplicity). None of the primes of this form up to $p$ can divide $q$, 
+    therefore another such prime must exist.
+\end{proof}
+
+Other proofs of Euclid's theorem are often fruitful also.
+
+\begin{proof}
+    Let $2,3,...,p_j$ be the first $p_j$ primes. Let $N(x)$ be the number of integers less than or equal to $x$ which are not divisible by any prime $p$ with 
+    $p > p_j$. Suppose $n$ is such an integer. Write
+
+    \begin{equation*}
+        n = n_1^2 m
+    \end{equation*}
+    where $m$ is 'squarefree', that is, not divisible by the square of any positive integer other than 1 (why is this possible, why is this decomposition unique). 
+    $m$ must be of the form $p_1^{b_1} ... p^{b_j}$ where the $b_i$ are all either 0 or 1. Hence there are exactly $2^j$ values $m$ may take. It is easily observed 
+    that $n_1 \leq \sqrt{x}$. Hence;
+
+    \begin{align*}
+        N(x) \leq 2^j \sqrt{x}
+    \end{align*}
+    Suppose there are exactly $j$ primes. Then $N(x) = x$ (if $x$ is a positive integer). But then
+    \begin{align*}
+        x \leq \sqrt{x}2^j
+    \end{align*}
+    for all $x$, but this is plainly untrue.
+
+\end{proof}
+
+\begin{remark}
+    A similar argument shows that $\sum\frac{1}{p}$ is divergent.
+\end{remark}
+
+\begin{proof}
+    Suppose $\sum \frac{1}{p}$ converges. Then for some $j$,
+
+    \begin{equation*}
+        \frac{1}{p_j} + \frac{1}{p_{j+1}} + ... < \frac{1}{2}
+    \end{equation*}
+    Every integer $n$ not exceeding $x$ is either divisible only by primes less than $p_j$, or is otherwise divisible by at least one of the primes 
+    $p_j,p_{j+1},...,$. For each such prime $p_i$, there are at most $\frac{x}{p_i}$ multiples $n$ of $p_i$. Therefore if $x$ is a positive integer 
+
+    \begin{align*}
+        x &\leq N(x) + \frac{x}{p_j} + \frac{x}{p_{j+1}} + ... \\
+        x &\leq N(x) + \frac{x}{2} \\
+        \frac{x}{2} &\leq N(x)
+    \end{align*}
+
+    \noi
+    But this gives rise to the same contradiction as in the prior proof of Theorem \ref{FTA}.
+
+\end{proof}
+
+\subsection{Exercises}
+\begin{enumerate}
+    \item Prove Theorem \ref{FTA}
+    \item Prove that there are infinitely many primes of the form $6n+5$.
+    \item Let $F_n = 2^{2^n} + 1$. Show that all distinct $F_n$ are coprime. Hence show that there are infinitely many primes.
+    \item If $a>1$ and $a^n + 1$ is prime, show that $a$ is even and $n$ is of the form $2^m$.
+    \item If $n>1$ and $a^n - 1$ is prime, show that $a=2$ and $n$ is prime.
+    \item Prove that no polynomial $f(n)$ with integral coefficients can be prime for all $n$, or for all sufficiently large $n$.
+\end{enumerate}
