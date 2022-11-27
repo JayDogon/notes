@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex NT_notes.idx"] 1669537515 "NT_notes.idx" "NT_notes.ind" "NT_notes" 1669538048 0
-  "NT_notes.idx" 1669538047 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex NT_notes.idx"] 1669539105 "NT_notes.idx" "NT_notes.ind" "NT_notes" 1669539128 0
+  "NT_notes.idx" 1669539128 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "NT_notes.ilg"
   "NT_notes.ind"
   (rewritten before read)
-["pdflatex"] 1669538046 "c:/Users/Nicholas Giannoulis/Desktop/notes/NT_notes.tex" "NT_notes.pdf" "NT_notes" 1669538048 0
+["pdflatex"] 1669539127 "c:/Users/Nicholas Giannoulis/Desktop/notes/NT_notes.tex" "NT_notes.pdf" "NT_notes" 1669539128 0
   "C:/Users/Nicholas Giannoulis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1669533446 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1669533420 10794655 132b5650514bbdaf13e52bf7f21fe5df ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -226,16 +226,18 @@
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "Chapter 1.aux" 1669538047 1175 c948fc01c83e33e1b3cd58176a126378 "pdflatex"
-  "Chapter 1.tex" 1669537788 896 163da5440eae774ff82b45b13a6bac3f ""
-  "NT_notes.aux" 1669538047 55 81efb4779bf53a946072a903a5ebc3a5 "pdflatex"
-  "NT_notes.ind" 1669537515 0 d41d8cd98f00b204e9800998ecf8427e "makeindex NT_notes.idx"
-  "NT_notes.tex" 1669538045 819 21527eccbb0e9acb0037f84a7d977652 ""
-  "c:/Users/Nicholas Giannoulis/Desktop/notes/NT_notes.tex" 1669538045 819 21527eccbb0e9acb0037f84a7d977652 ""
+  "Chapter 1.aux" 1669539128 1175 24eba438fa488b7957e07eded6c5834d "pdflatex"
+  "Chapter 1.tex" 1669538696 896 bc84d518cdceed7b1c207ba81e1e34a4 ""
+  "NT_notes.aux" 1669539128 55 81efb4779bf53a946072a903a5ebc3a5 "pdflatex"
+  "NT_notes.ind" 1669539105 0 d41d8cd98f00b204e9800998ecf8427e "makeindex NT_notes.idx"
+  "NT_notes.tex" 1669539125 837 93ebc125a079557742e205fbb6a8a6d3 ""
+  "NT_notes.toc" 1669539128 324 cd7ea55474ba18253065cf58407b93c3 "pdflatex"
+  "c:/Users/Nicholas Giannoulis/Desktop/notes/NT_notes.tex" 1669539125 837 93ebc125a079557742e205fbb6a8a6d3 ""
   (generated)
   "Chapter 1.aux"
   "NT_notes.aux"
   "NT_notes.idx"
   "NT_notes.log"
   "NT_notes.pdf"
+  "NT_notes.toc"
   (rewritten before read)

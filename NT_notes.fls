@@ -819,19 +819,11 @@ INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex\latex\amsfo
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT NT_notes.pdf
-INPUT C:\Users\Nicholas Giannoulis\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\Chapter 1.tex
-OUTPUT Chapter 1.aux
-INPUT .\Chapter 1.tex
-INPUT .\Chapter 1.tex
-INPUT .\Chapter 1.tex
-INPUT .\Chapter 1.tex
-INPUT Chapter 1.tex
-INPUT .\Chapter 1.tex
-INPUT Chapter 1.tex
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\NT_notes.toc
+INPUT NT_notes.toc
+INPUT NT_notes.toc
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -850,6 +842,19 @@ INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\publi
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+OUTPUT NT_notes.toc
+OUTPUT NT_notes.pdf
+INPUT C:\Users\Nicholas Giannoulis\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\Chapter 1.tex
+OUTPUT Chapter 1.aux
+INPUT .\Chapter 1.tex
+INPUT .\Chapter 1.tex
+INPUT .\Chapter 1.tex
+INPUT .\Chapter 1.tex
+INPUT Chapter 1.tex
+INPUT .\Chapter 1.tex
+INPUT Chapter 1.tex
+INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT NT_notes.aux
 INPUT .\Chapter 1.aux
 INPUT Chapter 1.aux
