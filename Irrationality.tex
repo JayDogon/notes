@@ -1,0 +1,31 @@
+\section{Irrationality}
+
+\subsection{Algebraic Numbers}
+\begin{theorem}
+    If $x$ is a root of the equation
+
+    \begin{equation*}
+        x^m + c_1x^{m-1} + ... + c_m = 0
+    \end{equation*}
+    \noi
+    where the $c_i$ are integral, then $x$ is either integral or irrational.
+\end{theorem}
+
+\begin{proof}
+    WLOG we may assume $c_m$ is not 0. Suppose $x = a/b$ with \\ $(a,b) = 1$.
+
+    \begin{equation*}
+        a^m = b(-c_1 a^{m-1} - c_2 a^{m-2}b - ... - c_m b^{m-1})
+    \end{equation*}
+    whence any prime divisor of $b$ divides $a$. Therefore $b=1$.
+\end{proof}
+
+\begin{remark}
+    In a more general field such numbers are called algebraic integers for this reason.
+\end{remark}
+
+\subsection{Exercises}
+\begin{enumerate}
+    \item Show that $\sqrt[m]{N}$ is irrational or integral. 
+\end{enumerate}
+
