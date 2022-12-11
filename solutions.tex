@@ -1,0 +1,96 @@
+\section{Solutions}
+
+\subsection{Primes}
+
+\subsubsection{2.1}
+The existence of prime decompositions is a simple matter 
+of induction. Let $p_1 p_2 ... p_m$ and $q_1q_2...q_n$ be 
+two equal prime decompositions. Then $p_1$ divides the 
+product of the $q_i$. By Euclid's Lemma, it must divide 
+some $q_j$. But then it follows that $p_1 = q_j$. Hence
+
+\begin{equation*}
+    p_2 p_3 ... p_m = q_1 ... q_{j-1}q_{j+1} ... q_m
+\end{equation*}
+
+One may continue this process until either one or both of 
+the products is empty. If only one is empty, then it must 
+be that a product of primes is equalt to 1, which is 
+clearly impossible. If they are both empty, then then 
+the products were identical.
+
+\subsubsection{2.2}
+
+Suppose there are only finitely many primes of the form 
+$6n+5$. Let $q = 2 \cdot 3 \cdot ... \cdot p - 1$ where 
+$p$ is the largest prime of the form $6n+5$. $q$ is 
+clearly of the form $6n+5$, but then it must be divisible 
+by at least one prime of the form $6n+5$ since a product 
+of the other remainders cannot be of this form. 
+$q$ is clearly coprime to all of the primes of this form. 
+We reach the familiar contradiction.
+
+\subsubsection{2.3}
+Suppose $n>m\geq 1$
+
+\begin{align*}
+    F_n - F_m &= 2^{2^n} - 2^{2^m} \\
+    &= 2^{2^m}(2^{2^m(2^{n-m} - 1)}) - 1 
+\end{align*}
+
+If $p$ is a common prime divisor of $F_n$ and $F_m$ 
+it must be odd and it must divide their difference. 
+Therefore, it must divide $2^{2^m(2^{n-m} - 1)} - 1$. 
+Let $p$ be an odd prime divisor of $2^{2^m} + 1$. Then 
+$2^{2^m}$ is congruent to $-1$ mod $p$. Because $n-m$ 
+is at least 1, $2^{n-m} - 1$ is odd. But then 
+$2^{2^m(2^{n-m} - 1)} = \left(2^{2^m}\right)^{2^{n-m}-1}$ 
+is congruent to $-1$ mod $p$. But then it follows that 
+$F_n - F_m$ is not divisible by $p$. \\ \\
+
+If the distinct $F_n$ are all coprime, then each possesses 
+a unique set of prime divisors and the infinitude of primes 
+follows.
+
+\subsubsection{2.4}
+
+If $a$ were odd then $a^n + 1$ would be even and greater than 
+2. Suppose $n$ had an odd divisor $d$ with $n = dq$. Then,
+
+\begin{align*}
+    a^{dq} + 1 &= \left(a^{q}\right)^d + 1 \\
+    &= (a^q + 1)(a^{q(d-1)} - a^{q(d-2)} + ... + 1)
+\end{align*}
+
+but this is a non trivial factorisation of $a^n + 1$.
+
+\subsubsection{2.5}
+
+\begin{equation*}
+    a^n - 1 = (a-1)(a^{n-1} + a^{n-2} ... + 1)
+\end{equation*}
+
+If $a > 2$ this factorisation is immediately non trivial. 
+Suppose $a=2$ and $n = qd$ is not prime.
+
+\begin{align*}
+    2^{qd} &= \left(2^q\right)^d - 1 \\
+    &= (2^{q} - 1)(2^{q(d-1)} + 2^{q(d-2)} + ... + 1)
+\end{align*}
+
+\subsubsection{2.6}
+
+Suppose $f(n) = \sum_{k=0}^m c_k n^k $ is a polynomial with 
+integral coefficients. Then
+
+\begin{align*}
+    f(tc_0) &= c_0 + \sum_{k=1}^m c_k t^k c_0^k \\
+    &= c_0(1 + \sum_{k=1}^m c_k t^k c_0^{k-1})
+\end{align*}
+
+If $c_0\neq \pm 1$ this provides an immediate non trivial 
+factorisation for large $t$. Suppose $c_0 = 1$. Then 
+
+\begin{equation*}
+    f(n) = \pm 1 + \sum_{k=1}^m c_k n^k
+\end{equation*}
