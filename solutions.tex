@@ -15,7 +15,7 @@ some $q_j$. But then it follows that $p_1 = q_j$. Hence
 
 One may continue this process until either one or both of 
 the products is empty. If only one is empty, then it must 
-be that a product of primes is equalt to 1, which is 
+be that a product of primes is equal to 1, which is 
 clearly impossible. If they are both empty, then then 
 the products were identical.
 
@@ -81,16 +81,23 @@ Suppose $a=2$ and $n = qd$ is not prime.
 \subsubsection{2.6}
 
 Suppose $f(n) = \sum_{k=0}^m c_k n^k $ is a polynomial with 
-integral coefficients. Then
+integral coefficients. WLOG assume $c_m > 0$. Then $f(n) \to \infty$. 
+Let $N$ be such that $n\geq N$ $\implies f(n) > 1$. Lastly, 
+set $f(N) = y$. Then;
 
 \begin{align*}
-    f(tc_0) &= c_0 + \sum_{k=1}^m c_k t^k c_0^k \\
-    &= c_0(1 + \sum_{k=1}^m c_k t^k c_0^{k-1})
+    f(N + ry) &= \sum_{k=0}^m c_k (N + ry) \\
+    &= f(N) + yQ
 \end{align*}
 
-If $c_0\neq \pm 1$ this provides an immediate non trivial 
-factorisation for large $t$. Suppose $c_0 = 1$. Then 
+Where $Q$ is some integer obtained by considering the terms of the 
+binomial expansions which contain at least one copy of $y$. 
+Therefore $f(n)$ is divisible by $y$ every term of the arithmetic 
+sequence $\{N + ry\}$. Because $f(n) \to \infty$, only finitely 
+many of these can be at least as small as $y$ (This is an issue 
+only if $y$ is prime). Therefore $f$ is composite on a 
+positive proportion of the integers.
 
-\begin{equation*}
-    f(n) = \pm 1 + \sum_{k=1}^m c_k n^k
-\end{equation*}
+\subsection{Irrationality}
+\subsubsection{}
+$\sqrt[m]{N}$ is a root of the polynomial $f(X) = X^m - N$. The result follows from the Rational Root Theorem (\ref{RRT})
