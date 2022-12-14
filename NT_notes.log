@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.27)  14 DEC 2022 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.27)  12 DEC 2022 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -552,7 +552,7 @@ Writing index file NT_notes.idx
 \c@theorem=\count312
 \c@corollary=\count313
 \c@lemma=\count314
-(NT_notes.aux (Chapter 1.aux) (Primes.aux) (Irrationality.aux))
+(NT_notes.aux (Chapter 1.aux) (Primes.aux) (Irrationality.aux) (solutions.aux))
 \openout1 = `NT_notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -627,19 +627,36 @@ Overfull \hbox (9.52391pt too wide) in paragraph at lines 43--44
 
 
 
-] (NT_notes.aux (Chapter 1.aux) (Primes.aux) (Irrationality.aux)) ) 
+]
+\openout2 = `solutions.aux'.
+
+ (solutions.tex
+Underfull \hbox (badness 10000) in paragraph at lines 41--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--50
+
+ []
+
+[10
+
+
+
+] [11]) [12] (NT_notes.aux (Chapter 1.aux) (Primes.aux) (Irrationality.aux) (solutions.aux)) ) 
 Here is how much of TeX's memory you used:
- 28736 strings out of 475385
- 751803 string characters out of 2770262
+ 28765 strings out of 475385
+ 752692 string characters out of 2770262
  1212504 words of memory out of 3000000
- 49531 multiletter control sequences out of 15000+600000
+ 49553 multiletter control sequences out of 15000+600000
  478475 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,12n,104p,1221b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on NT_notes.pdf (9 pages, 159319 bytes).
+<C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on NT_notes.pdf (12 pages, 179735 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

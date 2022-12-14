@@ -796,6 +796,9 @@ INPUT Primes.aux
 INPUT .\Irrationality.aux
 INPUT Irrationality.aux
 INPUT Irrationality.aux
+INPUT .\solutions.aux
+INPUT solutions.aux
+INPUT solutions.aux
 OUTPUT NT_notes.aux
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -891,6 +894,15 @@ INPUT .\Irrationality.tex
 INPUT Irrationality.tex
 INPUT .\Irrationality.tex
 INPUT Irrationality.tex
+INPUT .\solutions.tex
+OUTPUT solutions.aux
+INPUT .\solutions.tex
+INPUT .\solutions.tex
+INPUT .\solutions.tex
+INPUT .\solutions.tex
+INPUT solutions.tex
+INPUT .\solutions.tex
+INPUT solutions.tex
 INPUT NT_notes.aux
 INPUT .\Chapter 1.aux
 INPUT Chapter 1.aux
@@ -901,6 +913,9 @@ INPUT Primes.aux
 INPUT .\Irrationality.aux
 INPUT Irrationality.aux
 INPUT Irrationality.aux
+INPUT .\solutions.aux
+INPUT solutions.aux
+INPUT solutions.aux
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
@@ -921,6 +936,8 @@ INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\pub
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\Nicholas Giannoulis\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
