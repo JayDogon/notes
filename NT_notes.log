@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.27)  29 NOV 2022 00:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.27)  14 DEC 2022 12:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -631,7 +631,7 @@ Overfull \hbox (9.52391pt too wide) in paragraph at lines 43--44
 Here is how much of TeX's memory you used:
  28736 strings out of 475385
  751803 string characters out of 2770262
- 1212502 words of memory out of 3000000
+ 1212504 words of memory out of 3000000
  49531 multiletter control sequences out of 15000+600000
  478475 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
