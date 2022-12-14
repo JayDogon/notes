@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex NT_notes.idx"] 1670740662 "NT_notes.idx" "NT_notes.ind" "NT_notes" 1670755670 0
-  "NT_notes.idx" 1670755669 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex NT_notes.idx"] 1670740662 "NT_notes.idx" "NT_notes.ind" "NT_notes" 1670805689 0
+  "NT_notes.idx" 1670805689 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "NT_notes.ilg"
   "NT_notes.ind"
   (rewritten before read)
-["pdflatex"] 1670755668 "c:/Users/Nicholas Giannoulis/Desktop/notes/NT_notes.tex" "NT_notes.pdf" "NT_notes" 1670755670 0
+["pdflatex"] 1670805688 "c:/Users/Nicholas Giannoulis/Desktop/notes/NT_notes.tex" "NT_notes.pdf" "NT_notes" 1670805689 0
   "C:/Users/Nicholas Giannoulis/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1669540615 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1669533420 10794655 132b5650514bbdaf13e52bf7f21fe5df ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -236,18 +236,18 @@
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Nicholas Giannoulis/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "Chapter 1.aux" 1670755669 1443 7cb0aad3306952730662dc288748bcee "pdflatex"
+  "Chapter 1.aux" 1670805689 1443 7cb0aad3306952730662dc288748bcee "pdflatex"
   "Chapter 1.tex" 1669555165 1224 c461acbb000f8aa6a3f534d528be0db3 ""
-  "Irrationality.aux" 1670755669 1061 882142021034d0fbd537158c31666290 "pdflatex"
-  "Irrationality.tex" 1670755649 852 c28effd805b6195b748e5386b43312be ""
-  "NT_notes.aux" 1670755669 126 d206270d3ae0712af27359ef631e71a7 "pdflatex"
+  "Irrationality.aux" 1670805689 1061 882142021034d0fbd537158c31666290 "pdflatex"
+  "Irrationality.tex" 1670805687 847 4dee37dbf7cedbeb05102bba73f2ff4f ""
+  "NT_notes.aux" 1670805689 126 d206270d3ae0712af27359ef631e71a7 "pdflatex"
   "NT_notes.ind" 1670740662 0 d41d8cd98f00b204e9800998ecf8427e "makeindex NT_notes.idx"
   "NT_notes.tex" 1670739063 1118 53e94cf052309293867c7ef7a4ec2517 ""
-  "NT_notes.toc" 1670755669 1487 b91d19a69ad09c25a8218cd7b543d498 "pdflatex"
-  "Primes.aux" 1670755669 1185 e9e708bcc0c1ade805a83a3db1f9f78d "pdflatex"
-  "Primes.tex" 1670739054 5458 85089cc93e51edc3ac7ccbd8946c2036 ""
+  "NT_notes.toc" 1670805689 1487 b91d19a69ad09c25a8218cd7b543d498 "pdflatex"
+  "Primes.aux" 1670805689 1185 e9e708bcc0c1ade805a83a3db1f9f78d "pdflatex"
+  "Primes.tex" 1670805563 5452 3ea22c3e01062510b6213c68a851d434 ""
   "c:/Users/Nicholas Giannoulis/Desktop/notes/NT_notes.tex" 1670739063 1118 53e94cf052309293867c7ef7a4ec2517 ""
-  "solutions.aux" 1670755669 1735 965d7c7cc62996c15f148c45870a78a8 "pdflatex"
+  "solutions.aux" 1670805689 1735 965d7c7cc62996c15f148c45870a78a8 "pdflatex"
   "solutions.tex" 1670755667 3572 e2582c874a2f01d27373476670a38823 ""
   (generated)
   "Chapter 1.aux"
