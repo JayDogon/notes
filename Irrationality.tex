@@ -2,30 +2,44 @@
 
 \subsection{Algebraic Numbers}
 \begin{theorem}\label{RRT}
-    If $x$ is a root of the equation
+    If $x = a/b$, where $a$ and $b$ are coprime, is a rational root of the equation
 
     \begin{equation*}
-        x^m + c_1x^{m-1} + ... + c_m = 0
+        c_0 x^m + c_1x^{m-1} + ... + c_m = 0
     \end{equation*}
     \noi
-    where the $c_i$ are integral, then $x$ is either integral or irrational.
+    where the $c_i$ are integral, then $b|c_0$ and $a|c_m$.
 \end{theorem}
 
 \begin{proof}
-    WLOG we may assume $c_m$ is not 0. Suppose $x = a/b$ with \\ $(a,b) = 1$.
+    WLOG we may assume $c_0$ and $c_m$ are not 0. By substituting in the given root and clearing 
+    denominators we obtain the following.
 
     \begin{equation*}
-        a^m = b(-c_1 a^{m-1} - c_2 a^{m-2}b - ... - c_m b^{m-1})
+        c_0 a^m = b(-c_1 a^{m-1} - c_2 a^{m-2}b - ... - c_m b^{m-1})
     \end{equation*}
-    whence any prime divisor of $b$ divides $a$. Therefore $b=1$.
+    Therefore, $b|c_0 a^m$. Because $b$ is coprime with $a^m$, it follows that $b$ divides $c_0$. \\
+    In much the same way we see that 
+    \begin{equation*}
+        c_m b^m = a(- c_{m-1}b^{m-1} - c_{m-2}b^{m-2}a - ... - c_0 a^{m-1})
+    \end{equation*}
+    from which the remaining claim follows.
 \end{proof}
+This provides an effective algorithm for determining the rationality of algebraic numbers. In particular, 
+one can look at all combinations of numerators and denominators which divide the leading and constant 
+coefficients respectively.
+\subsection{Transcendental Numbers}
+If a number is not prescribed in an algebraic manner in this way it can often be difficult to discern 
+whether or not it's even rational. In this section we prove some classic irrationality results for 
+some numbers that are in fact known to be transcendental.
 
-\begin{remark}
-    In a general field such numbers are called algebraic integers for this reason.
-\end{remark}
+
 
 \subsection{Exercises}
 \begin{enumerate}
     \item Show that $\sqrt[m]{N}$ is irrational or integral. 
-\end{enumerate}
+\end{enumerate} 
+
+
+
 
